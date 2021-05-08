@@ -7,8 +7,7 @@ class Dustbin{
 
         this.body = Bodies.rectangle(x,y,width,height,options)
         this.width = width;
-        this.height = height;
-
+        this.height = height;   
         World.add(world, this.body);
     }
 
